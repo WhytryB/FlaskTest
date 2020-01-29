@@ -1,0 +1,20 @@
+<html>
+    <head>
+  </head>
+    <body>
+        <table>
+            <thead>
+                <h1 class="table">Event Table</h1>
+            </thead>
+            <tbody>
+                {% for event in EventObjects %}
+                <tr>
+                    <td>
+                        <h4>{{event}}</h4>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>
