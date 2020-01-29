@@ -1,7 +1,7 @@
 # FlaskTest
 
 Some steps to run:
-1)CHeck Flask,  flask_sqlalchemy and flask_migrate
+1) CHeck Flask,  flask_sqlalchemy and flask_migrate
 2) Export Global Env for Database with data
 export POSTGRES_URL
 POSTGRES_USER
